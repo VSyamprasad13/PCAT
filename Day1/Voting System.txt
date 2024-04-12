@@ -1,0 +1,19 @@
+#Voting System
+
+start
+read age
+read nationality
+read felony_status
+if(age>=18){
+	if(nationality=="indian"){
+		if(felony_status=="no")
+			print "you are eligible to vote"
+		else
+			 print "you are not eligible"
+	}	
+	else 
+		print "you are not eligible"
+}
+else
+	print "you are not eligible"
+end
