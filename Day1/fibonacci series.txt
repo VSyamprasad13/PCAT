@@ -1,0 +1,12 @@
+#fibonacci series
+start
+read num
+input a=0,b=1
+for(int i=1;i<=num;i++){
+	print a
+	print b
+	c=a+b
+	a=b
+	b=c
+}
+end
