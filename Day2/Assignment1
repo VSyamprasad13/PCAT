@@ -1,1 +1,46 @@
+Assignment 1: Write pseudocode and create a flowchart for 
+a bubble sort algorithm. Provide a brief explanation 
+of how the algorithm works and a simple array of integers to demonstrate a dry run of your algorithm.
+
+pseudocode:
+start
+read array a
+length=n
+for i in range of 0 to n-1:
+  booleaan flag=true
+  for j in range of 0 to n-i-1:
+    if a[j]>a[j+1]
+      swap a[j] and a[j+1]
+      flag = false
+  end for 
+if flag is true
+  break
+end for
+end
+
+
+dry run:
+case 1:
+a=[5,1,10,58,2]
+a[j]=5 and a[j+1]=1, swap because 5 > 1: [1, 5, 10, 58,2]
+ a[j]=5 and a[j+1]=10, no swap: [1, 5, 10, 58, 2]
+a[j]=10 and a[j+1]=58, no swap : [1, 5, 10, 58, 2]
+a[j]=58 and a[j+1]=2, swap 58>2: [1, 5, 10, 2,58]
+
+58 is fixed at 4th index
+case 2:
+a[j]=1 and a[j+1]=5, no swap: [1, 5, 10, 2,58]
+a[j]=5 and a[j+1]=10 no swap: [1, 5, 10, 2,58]
+a[j]=10 and a[j+1]=2 swap 10>2: [1, 5, 2, 10, 58]
+10 is fixed at 3rd index
+case 3:
+a[j]=1 and a[j+1]=5 no swap: [1, 5, 2, 10, 58]
+a[j]=5 and a[j+1]=2  swap 5>2 : [1, 2, 5, 10, 58]
+
+explanation: Bubble sort is used to sort the elements.
+for every iteration one element gets sorted and stored at the end of the list or array.
+Bubble sort runs for size-1 times but in this case the list is sorted in 3 ierations.
+
+
+
 
