@@ -16,3 +16,8 @@ print a
 print b
 call fibonacci(a,b,num-2)
 end
+
+Explanation:
+By using recursive function we can easily calculate the fibonacci sequence.
+space complexity is more in recursive approach compared to iterative approach
+time complexity is more in recursive approach compared to iterative approach
