@@ -1,12 +1,10 @@
-#palindrome
+#Algorithm to check whether a string is a palindrome
 start
 read str
 if(call palindrome(str))
 	print "Palindrome"
 else print "Not palindrome"
 end
-
-
 
 function palindrome(str)
 i=0
