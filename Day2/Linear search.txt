@@ -1,0 +1,10 @@
+#Linear search
+start
+declare array a[]
+accept array values
+accept search value from user --data
+for(i=0;i<a.length;i++)
+	if(data==a[i])
+		print "the value found at "+i
+end loop
+end
