@@ -1,4 +1,4 @@
-#factorial
+#Algorithm to find the factorial of the given number
 start
 read n
 fact=1
