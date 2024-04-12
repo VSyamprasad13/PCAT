@@ -1,4 +1,4 @@
-**Assignment 1** : Pseudocode Development - 
+Assignment 1: Pseudocode Development - 
 Task: Write a detailed pseudocode for a simple program that takes a number as input,
 calculates the square if it's even or the cube if it's odd, and then outputs the result.
 Incorporate conditional and looping constructs.
@@ -11,3 +11,8 @@ if(num%2==0)
 else
 	print "The cube of the number is"+(num*num*num)
 end
+Assignment 2: Flowchart Creation - 
+Design a flowchart that outlines the logic for a user login process.
+It should include conditional paths for successful and unsuccessful login attempts,
+and a loop that allows a user three attempts before locking the account.
+
