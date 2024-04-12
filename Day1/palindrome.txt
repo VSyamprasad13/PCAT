@@ -1,0 +1,21 @@
+#palindrome
+start
+read str
+if(call palindrome(str))
+	print "Palindrome"
+else print "Not palindrome"
+end
+
+
+
+function palindrome(str)
+i=0
+j=str.lenght()-1
+
+while(i<j){
+	if(str.charAt[i]!=str.charAt[j])
+		return false;
+	i++;
+	j--;
+}
+return true;
