@@ -1,1 +1,25 @@
+#Algorithm to find the day of q week based on the input
 
+
+start
+read day
+if day>7 print "Invalid day"
+else{
+switch(day){
+	case 1: print "the day is Sunday"
+		break;
+	case 2: print "the day is Monday"
+		break;
+	case 3: print "the day is Tuesday"
+		break;
+	case 4: print "the day is Wednesday"
+		break;
+	case 5: print "the day is Thursday"
+		break;
+	case 6: print "the day is Friday"
+		break;
+	case 7: print "the day is Saturday"
+		break;
+}
+}
+end
