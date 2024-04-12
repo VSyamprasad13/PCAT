@@ -1,10 +1,37 @@
-#Linear search
+#Algorithm for Linear search
+
+function linearSearch(num,a[]){
+	for(i=0;i<a.length;i++)
+		if(data==a[i])
+			return i
+	end loop
+	return -1
+}
+
 start
 declare array a[]
 accept array values
 accept search value from user --data
-for(i=0;i<a.length;i++)
-	if(data==a[i])
-		print "the value found at "+i
-end loop
+result=call linearSearch(num,a[])
+if(result>=0) 
+	print "The value found at the index "+result
+else 
+print "Not found"
 end
+
+Dry run:
+
+a[14,16,2,6,8]
+case 1: search 2
+a[0]=14 14!=2
+a[1]=16 16!=2
+a[2]=2 2==2 end the loop and search and return 2
+
+case 2: search 20
+a[0]=14 14!=20
+a[1]=16 16!=20
+a[2]=2 2!=20 
+a[3]=6 6!=20 
+a[4]=8 8!=20
+end the loop and return -1
+
