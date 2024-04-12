@@ -1,0 +1,11 @@
+#Algorithm to find whether the employee is eligible for promotion or not
+
+start
+declare years_of_service,rating,training_status
+accept years_of_service,rating,training_status
+
+if(years_of_service>=5 && rating=="excellent" && training_status>=1)
+  print "Eligible for promotion"
+else 
+  print "Not eligible for promotion"
+end
