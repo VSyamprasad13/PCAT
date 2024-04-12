@@ -1,0 +1,20 @@
+Assignment 3: Function Design and Modularization - Create a document that describes the design of two modular functions: 
+one that returns the factorial of a number, and another that calculates the nth Fibonacci number. 
+Include pseudocode and a brief explanation of how modularity in programming helps with code reuse and organization.
+
+psedocode for factorial:
+
+function factorial(num)
+  if(num<=1)
+    return 1
+  else return num*factorial(num-1)
+
+start
+declare num
+accept num
+result = call factorial(num)
+end
+
+Explanation: By using modularity with recursion the code becomes less compared to normal execution.
+
+psedocode for fibonacci:
