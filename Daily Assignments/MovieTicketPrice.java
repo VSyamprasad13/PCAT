@@ -12,14 +12,14 @@ public class MovieTicketPrice
   		int age=s.nextInt();
   		switch(choice){
   			case 1:if(age<18)
-  				System.out.println("cost is 8 rupees");
+  				System.out.println("The ticket price is $8 ");
                       	else
-                  		System.out.println("cost is 12 rupeese");
+                  		System.out.println("The ticket price is $12");
   			break;
   			case 2:if(age<18)
-  				System.out.println("cost is 10 rupees");
+  				System.out.println("The ticket price is $10");
                  	 else
-  				System.out.println("cost is 15 rupeese");
+  				System.out.println("The ticket price is $15");
   			break;
   		}
   	}
