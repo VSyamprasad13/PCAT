@@ -1,5 +1,5 @@
 package com.array;
-
+//Task 8.b
 import java.util.Scanner;
 
 public class ArrayFibonacci {
