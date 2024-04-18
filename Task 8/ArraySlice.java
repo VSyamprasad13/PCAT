@@ -1,5 +1,5 @@
 package com.array;
-
+//Task 8.a
 import java.util.Scanner;
 
 public class ArraySlice {
