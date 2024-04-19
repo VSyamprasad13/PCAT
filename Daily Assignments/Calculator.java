@@ -6,14 +6,14 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		int a=Integer.valueOf(args[0]);
-		int b=Integer.valueOf(args[1]);
 		System.out.println("Choose the operation\n"
-				+ "1.Addition\n"
-				+ "2.Substraction\n"
-				+ "3.Multiplication\n"
-				+ "4.Division");
+				+ args[0]+"\n"
+				+args[1]+"\n"
+				+ args[2]+"\n"
+				+ args[3]);
 		int choice=sc.nextInt();
+		int a=sc.nextInt();
+		int b=sc.nextInt();
 		
 		switch(choice) {
 		case 1:System.out.println("Addition is:"+(a+b));
